@@ -1,4 +1,4 @@
-def run():
+def run(name):
     count = 0
     while count < 3:
         if new_game():
@@ -6,8 +6,8 @@ def run():
         else:
             print('Haha loserito')
             return
-    print('Grats winerito')
-    
+    print('Grats winnerito', name)
+
 
 def new_game():
     import random
@@ -15,7 +15,7 @@ def new_game():
     print('Question:', question)
     answer = input('Your answer: ')
     return answer_check(answer, question)
-    
+
 
 def answer_check(answer, question):
     answers = {'yes': 0,
