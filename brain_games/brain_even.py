@@ -6,7 +6,7 @@ def run(name):
         else:
             print('Haha loserito')
             return
-    print('Grats winnerito', name)
+    print('Congratulations, {}!'.format(name))
 
 
 def new_game():
