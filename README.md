@@ -3,3 +3,5 @@
 
 
 Here will be my awesome game
+
+[![asciicast](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J.svg)](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J)
