@@ -4,4 +4,11 @@
 
 Here will be my awesome game
 
+Brain-even demo:
+
 [![asciicast](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J.svg)](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J)
+
+
+Brain-calc demo:
+
+[![asciicast](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N.svg)](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N)
