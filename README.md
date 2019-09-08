@@ -4,11 +4,16 @@
 
 Here will be my awesome game
 
+Brain-gcd demo:
+
+[![asciicast](https://asciinema.org/a/KWpZ34NTbdKPs9YTIyUHq4jD6.svg)](https://asciinema.org/a/KWpZ34NTbdKPs9YTIyUHq4jD6)
+
+Brain-calc demo:
+
+[![asciicast](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N.svg)](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N)
+
 Brain-even demo:
 
 [![asciicast](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J.svg)](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J)
 
 
-Brain-calc demo:
-
-[![asciicast](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N.svg)](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N)
