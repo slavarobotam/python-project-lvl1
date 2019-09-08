@@ -6,6 +6,7 @@ def get_name():
     print("Hello, {}!\n".format(name))
     return name
 
+
 welcome = "Welcome to the Brain Games!"
 
 game_description = {
