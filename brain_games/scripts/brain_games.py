@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 
+import brain_games.cli
+
+
 def main():
     print('Welcome to the Brain Games!')
-    import brain_games.cli
     brain_games.cli.run()
 
 
