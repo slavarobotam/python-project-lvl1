@@ -6,6 +6,7 @@ def get_name():
     print("Hello, {}!\n".format(name))
     return name
 
+
 welcome = "\nWelcome to the Brain Games!"
 
 get_description = {
@@ -30,5 +31,6 @@ def wrong(guess, answer, name):
 
 def correct():
     print('Correct!')
+
 
 grats = 'Congratulations, {}!'.format
