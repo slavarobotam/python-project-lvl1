@@ -17,7 +17,7 @@ def get_answer(question):  # calculating the correct answer
         big_num, small_num = num2, num1  # included case when both equal
     if big_num % small_num == 0:  # checking simple case when small_num is gcd
         return str(small_num)
-    max_gcd = int(small_num / 2)  # max possible gcd = upper bound in search
+    max_gcd = int(small_num / 2)  # max possible gcd = upper bound of search
     for i in range(max_gcd, 0, -1):  # descending search for common div
         if big_num % i == 0 and small_num % i == 0:
             return str(i)

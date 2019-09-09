@@ -1,16 +1,20 @@
-def new_game(name, game):
+import brain_games.cli as cli
+
+
+def new_game(game):
+    print(cli.welcome)
+    print(cli.get_description[game.__name__[18:]])  # pass name without path
+    name = cli.get_name()
     count = 0
     while count < 3:
         question = game.get_question()
         answer = game.get_answer(question)
-        print('Question:', question)
-        guess = input('Your answer: ')
+        print(cli.asking(question))
+        guess = cli.get_guess()
         if guess == answer:
-            print('Correct!')
+            cli.correct()
             count += 1
         else:
-            print("Haha loserito! '{}' is wrong answer.".format(guess))
-            print("Correct answer was '{}'.".format(answer))
-            print("Let's try again, {}!".format(name))
+            cli.wrong(guess, answer, name)
             return
-    print('Congratulations, {}!'.format(name))
+    print(cli.grats(name))
