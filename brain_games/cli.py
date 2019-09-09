@@ -12,7 +12,8 @@ welcome = "\nWelcome to the Brain Games!"
 get_description = {
     'brain_even.py': 'Answer "yes" if number even otherwise answer "no".\n',
     'brain_calc.py': 'What is the result of the expression?\n',
-    'brain_gcd': 'Find the greatest common divisor of given numbers.\n'
+    'brain_gcd': 'Find the greatest common divisor of given numbers.\n',
+    'brain_progression': 'What number is missing in the progression?\n'
             }
 
 asking = 'Question: {}'.format
