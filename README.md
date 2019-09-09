@@ -4,6 +4,10 @@
 
 Here will be my awesome game
 
+Brain-progression demo:
+
+[![asciicast](https://asciinema.org/a/6xToLOZ48foo2jKRegsXB802P.svg)](https://asciinema.org/a/6xToLOZ48foo2jKRegsXB802P)
+
 Brain-gcd demo:
 
 [![asciicast](https://asciinema.org/a/KWpZ34NTbdKPs9YTIyUHq4jD6.svg)](https://asciinema.org/a/KWpZ34NTbdKPs9YTIyUHq4jD6)
