@@ -3,7 +3,7 @@ import brain_games.cli as cli
 
 def new_game(game):
     print(cli.welcome)
-    print(cli.get_description[game.__name__[18:]])  # pass name without path
+    print(game.description)
     name = cli.get_name()
     count = 0
     while count < 3:
@@ -12,9 +12,9 @@ def new_game(game):
         print(cli.asking(question))
         guess = cli.get_guess()
         if guess == answer:
-            cli.correct()
+            cli.correct_result()
             count += 1
         else:
-            cli.wrong(guess, answer, name)
+            cli.wrong_result(guess, answer, name)
             return
     print(cli.grats(name))

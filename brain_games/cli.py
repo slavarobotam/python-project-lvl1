@@ -9,13 +9,6 @@ def get_name():
 
 welcome = "\nWelcome to the Brain Games!"
 
-get_description = {
-    'brain_even.py': 'Answer "yes" if number even otherwise answer "no".\n',
-    'brain_calc.py': 'What is the result of the expression?\n',
-    'brain_gcd': 'Find the greatest common divisor of given numbers.\n',
-    'brain_progression': 'What number is missing in the progression?\n'
-            }
-
 asking = 'Question: {}'.format
 
 
@@ -24,13 +17,13 @@ def get_guess():
     return guess
 
 
-def wrong(guess, answer, name):
+def wrong_result(guess, answer, name):
     print("Haha loserito! '{}' is wrong answer.".format(guess))
     print("Correct answer was '{}'.".format(answer))
     print("Let's try again, {}!".format(name))
 
 
-def correct():
+def correct_result():
     print('Correct!')
 
 

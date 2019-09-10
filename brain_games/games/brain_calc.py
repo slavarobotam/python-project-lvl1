@@ -1,3 +1,6 @@
+decription = 'What is the result of the expression?\n'
+
+
 def question_generator():
     import random
     num1 = str(random.randint(0, 100))

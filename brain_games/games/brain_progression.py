@@ -1,6 +1,9 @@
 import random
 
 
+decription = 'What number is missing in the progression?\n'
+
+
 def get_question():  # generating question
     num1 = random.randint(0, 10)
     step = random.randint(1, 10)

@@ -1,3 +1,5 @@
+description = 'Answer "yes" if number even otherwise answer "no".\n'
+
 def run(name):
     count = 0
     while count < 3:
