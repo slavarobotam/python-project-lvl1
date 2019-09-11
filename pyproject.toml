@@ -1,11 +1,17 @@
 [tool.poetry]
 name = "slavarobotam_brain_games"
 version = "2.1.0"
-description = ""
-authors = ["skip"]
+description = "Small pack of simple games."
+authors = [
+  "Marina Morkovkina <zefiratakuet@yandex.ru>"
+  ]
 packages = [
     { include = "brain_games" },
   ]
+repository = "https://github.com/slavarobotam/python-project-lvl1"
+classifiers = [
+    "Topic :: Games/Entertainment :: Puzzle Games"
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
