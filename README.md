@@ -5,19 +5,25 @@
 Small pack of simple games.
 
 Brain-games demo:
+
 [![asciicast](https://asciinema.org/a/267673.svg)](https://asciinema.org/a/267673)
 
 Brain-even demo:
+
 [![asciicast](https://asciinema.org/a/267675.svg)](https://asciinema.org/a/267675)
 
 Brain-calc demo:
+
 [![asciicast](https://asciinema.org/a/267676.svg)](https://asciinema.org/a/267676)
 
 Brain-gcd demo:
+
 [![asciicast](https://asciinema.org/a/267677.svg)](https://asciinema.org/a/267677)
 
 Brain-progression demo:
+
 [![asciicast](https://asciinema.org/a/267678.svg)](https://asciinema.org/a/267678)
 
 Brain-prime demo:
+
 [![asciicast](https://asciinema.org/a/267683.svg)](https://asciinema.org/a/267683)
