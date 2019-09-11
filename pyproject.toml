@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "slavarobotam_brain_games"
-version = "2.1.0"
+version = "2.1.1"
 description = "Small pack of simple games."
 authors = [
   "Marina Morkovkina <zefiratakuet@yandex.ru>"

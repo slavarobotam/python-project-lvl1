@@ -26,7 +26,7 @@ def get_guess():
 
 def wrong(guess, answer, name):
     """Print message when the user was wrong."""
-    print("Haha loserito! '{}' is wrong answer.".format(guess))
+    print("'{}' is wrong answer ;(. ".format(guess), end='')
     print("Correct answer was '{}'.".format(answer))
     print("Let's try again, {}!".format(name))
 
