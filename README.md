@@ -4,24 +4,20 @@
 
 Small pack of simple games.
 
-Brain-prime demo:
-
-[![asciicast](https://asciinema.org/a/02MS04aq7yIUmfr7iSzdkYM8P.svg)](https://asciinema.org/a/02MS04aq7yIUmfr7iSzdkYM8P)
-
-Brain-progression demo:
-
-[![asciicast](https://asciinema.org/a/6xToLOZ48foo2jKRegsXB802P.svg)](https://asciinema.org/a/6xToLOZ48foo2jKRegsXB802P)
-
-Brain-gcd demo:
-
-[![asciicast](https://asciinema.org/a/KWpZ34NTbdKPs9YTIyUHq4jD6.svg)](https://asciinema.org/a/KWpZ34NTbdKPs9YTIyUHq4jD6)
-
-Brain-calc demo:
-
-[![asciicast](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N.svg)](https://asciinema.org/a/j3n3C3Y5M7C6BpmrpQ6GBKI8N)
+Brain-games demo:
+[![asciicast](https://asciinema.org/a/267673.svg)](https://asciinema.org/a/267673)
 
 Brain-even demo:
+[![asciicast](https://asciinema.org/a/267675.svg)](https://asciinema.org/a/267675)
 
-[![asciicast](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J.svg)](https://asciinema.org/a/bPjRpNA8POaX6uOIv9tCQZL1J)
+Brain-calc demo:
+[![asciicast](https://asciinema.org/a/267676.svg)](https://asciinema.org/a/267676)
 
+Brain-gcd demo:
+[![asciicast](https://asciinema.org/a/267677.svg)](https://asciinema.org/a/267677)
 
+Brain-progression demo:
+[![asciicast](https://asciinema.org/a/267678.svg)](https://asciinema.org/a/267678)
+
+Brain-prime demo:
+[![asciicast](https://asciinema.org/a/267683.svg)](https://asciinema.org/a/267683)
