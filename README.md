@@ -2,7 +2,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)   [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage) [![Build Status](https://travis-ci.org/slavarobotam/python-project-lvl1.svg?branch=master)](https://travis-ci.org/slavarobotam/python-project-lvl1) 
 
 
-Here will be my awesome game
+Small pack of simple games.
+
+Brain-prime demo:
+
+[![asciicast](https://asciinema.org/a/02MS04aq7yIUmfr7iSzdkYM8P.svg)](https://asciinema.org/a/02MS04aq7yIUmfr7iSzdkYM8P)
 
 Brain-progression demo:
 
