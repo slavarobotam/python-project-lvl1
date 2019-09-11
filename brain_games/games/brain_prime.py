@@ -6,7 +6,7 @@ description = "Answer 'yes' if given number is prime. Otherwise answer 'no'.\n"
 
 def get_question():
     """Generate question."""
-    return random.randint(0, 100)
+    return random.randint(1, 100)
 
 
 def get_answer(num):
