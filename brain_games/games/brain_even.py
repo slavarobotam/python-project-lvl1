@@ -1,7 +1,9 @@
 import random
 
 
-description = 'Answer "yes" if number even otherwise answer "no".\n'
+def show_description():
+    print("Answer 'yes' if number is even otherwise answer 'no'.")
+    print()
 
 
 def get_question():  # generating question

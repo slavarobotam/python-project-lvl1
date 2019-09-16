@@ -1,7 +1,9 @@
 import random
 
 
-description = 'What number is missing in the progression?\n'
+def show_description():
+    print("What number is missing in the progression?")
+    print()
 
 
 def get_question():

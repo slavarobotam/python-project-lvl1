@@ -2,7 +2,9 @@ import random
 import functools
 
 
-description = 'Find the greatest common divisor of given numbers.\n'
+def show_description():
+    print('Find the greatest common divisor of given numbers.')
+    print()
 
 
 def get_question():

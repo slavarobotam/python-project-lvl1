@@ -1,7 +1,9 @@
 import random
 
 
-description = 'What is the result of the expression?\n'
+def show_description():
+    print('What is the result of the expression?')
+    print()
 
 
 def get_question():  # generating question

@@ -1,7 +1,9 @@
 import random
 
 
-description = "Answer 'yes' if given number is prime. Otherwise answer 'no'.\n"
+def show_description():
+    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print()
 
 
 def get_question():
