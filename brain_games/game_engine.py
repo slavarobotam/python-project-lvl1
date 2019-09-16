@@ -19,9 +19,10 @@ def run(game):
         cli.ask(question)  # print the question for the user
         guess = cli.get_guess()  # receive guess from the user
         if guess != answer:
-            cli.inform_user_is_wrong(guess, answer, name)
-            # show message for user when the answer is wrong
+            cli.inform_about_wrong_answer(guess, answer, name)
+            # show message when the answer is wrong
             return
-        cli.inform_user_is_right()  # show message when the answer is correct
+        cli.inform_about_correct_answer()
+        # show message when the answer is correct
         wins += 1
     cli.congratulate(name)  # print congratulations for user

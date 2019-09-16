@@ -26,13 +26,14 @@ def get_guess():
     return guess
 
 
-def inform_user_is_wrong(guess, answer, name):
+def inform_about_wrong_answer(guess, answer, name):
     """Print message when the user was wrong."""
-    print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(guess, answer))
+    print("'{}' is wrong answer ;(. "
+          "Correct answer was '{}'.".format(guess, answer))
     print("Let's try again, {}!".format(name))
 
 
-def inform_user_is_right():
+def inform_about_correct_answer():
     """Prints message for user when the answer is correct"""
     print('Correct!')
 
