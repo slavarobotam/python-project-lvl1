@@ -1,5 +1,4 @@
 import random
-import functools
 
 
 def show_description():
