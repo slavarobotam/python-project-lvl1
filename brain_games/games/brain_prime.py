@@ -1,4 +1,5 @@
 import random
+import math
 
 
 def show_description():
@@ -7,27 +8,24 @@ def show_description():
 
 
 def get_question():
-    """Generate question."""
-    return random.randint(1, 100)
-
-
-def get_answer(num):
     """
-    Checking if the number is prime.
-
+    Generate number and check if it is prime.
     Returns:
-        answer (str): 'yes' if prime and 'not' if not prime
+        question (str): number from 1 to 100
+        answer (str): 'yes' if the number is prime, 'no' otherwise.
     """
-    divisors = []  # list of simple divisors
-    div = 2  # search starts from 2
-    while div <= int(num / div):  # quotient can't be more than num/div
-        if num % div == 0:  # if found divisor
-            divisors.append(div)  # add to list
-            num = int(num / div)  # continue search
-        else:
-            div += 1  # move to next div
+    num = random.randint(1, 100)
+    if num in {2, 3}:  # check simple cases to skip first numbers
+        answer = 'yes'
+    elif num == 1 or (num % 2 == 0) or (num % 3 == 0):  # check simple cases
+        answer = 'no'
     else:
-        divisors.append(int(num))  # adding last number as div
-    if len(divisors) == 1 and divisors != [1]:  # 1 is not prime number
-        return 'yes'
-    return 'no'
+        max_divisor = int(math.sqrt(num))
+        for i in range(5, max_divisor, 2):
+            if num % i == 0:
+                answer = 'no'
+                break
+        else:
+            answer = 'yes'
+    question = str(num)
+    return question, answer

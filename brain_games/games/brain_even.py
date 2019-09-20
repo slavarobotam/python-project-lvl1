@@ -7,10 +7,10 @@ def show_description():
 
 
 def get_question():  # generating question
-    return random.randint(0, 100)
-
-
-def get_answer(question):  # calculating the correct answer
-    if question % 2 == 0:
-        return 'yes'
-    return 'no'
+    num = random.randint(0, 100)
+    question = str(num)
+    if num % 2 == 0:
+        answer = 'yes'
+    else:
+        answer = 'no'
+    return question, answer

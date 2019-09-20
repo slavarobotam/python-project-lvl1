@@ -14,8 +14,7 @@ def run(game):
     name = cli.get_name()  # request user name
     wins = 0  # counter for wins
     while wins < 3:
-        question = game.get_question()  # generate question
-        answer = game.get_answer(question)  # generate answer
+        question, answer = game.get_question()  # generate question
         cli.ask(question)  # print the question for the user
         guess = cli.get_guess()  # receive guess from the user
         if guess != answer:

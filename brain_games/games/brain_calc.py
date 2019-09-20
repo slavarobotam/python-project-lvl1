@@ -1,4 +1,5 @@
 import random
+import operator as oper
 
 
 def show_description():
@@ -6,14 +7,12 @@ def show_description():
     print()
 
 
-def get_question():  # generating question
-    num1 = str(random.randint(0, 100))
-    num2 = str(random.randint(0, 100))
-    oper_list = ['+', '-', '*']
-    operation = random.choice(oper_list)
-    question = num1 + ' ' + operation + ' ' + num2
-    return question
-
-
-def get_answer(question):  # calculating the correct answer
-    return str(eval(question))
+def get_question():  # generating question without a single if
+    num1 = random.randint(0, 100)
+    num2 = random.randint(0, 100)
+    questions = ['{} {} {}'.format(num1, sign, num2) for sign in '+-*']
+    operations = [oper.add, oper.sub, oper.mul]
+    question_and_operation = random.choice(list(zip(questions, operations)))
+    question = question_and_operation[0]
+    answer = str(question_and_operation[1](num1, num2))
+    return question, answer
