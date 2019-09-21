@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import brain_games.game_engine as engine
-from .. import games
+from brain_games import games
 
 
 def main():
