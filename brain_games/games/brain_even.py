@@ -9,8 +9,5 @@ def show_description():
 def get_question():  # generating question
     num = random.randint(0, 100)
     question = str(num)
-    if num % 2 == 0:
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = 'no' if num % 2 else 'yes'
     return question, answer

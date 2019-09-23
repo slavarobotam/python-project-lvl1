@@ -17,11 +17,11 @@ def get_question():
     num = random.randint(1, 100)
     if num in {2, 3}:  # check simple cases to skip first numbers
         answer = 'yes'
-    elif num == 1 or (num % 2 == 0) or (num % 3 == 0):  # check simple cases
+    elif num == 1 or not (num % 2):  # check simple cases
         answer = 'no'
     else:
         max_divisor = int(math.sqrt(num))
-        for i in range(5, max_divisor, 2):
+        for i in range(3, max_divisor, 2):
             if num % i == 0:
                 answer = 'no'
                 break
